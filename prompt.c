@@ -22,7 +22,10 @@ void prompt(int c)
 		line = readline();
 		if (line == NULL)
 		{
-			_putchar('\n');
+			if (c == 1)
+			{
+				_putchar('\n');
+			}
 			break;
 		}
 
@@ -47,3 +50,4 @@ void prompt(int c)
 		free(line);
 	} while (1);
 }
+
