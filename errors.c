@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * _error - prints error on the
- * @new_string: argument to be printed
+ * _error - prints error
+ *
  * Return: Always 0
  */
 int _error(void)
@@ -10,3 +10,4 @@ int _error(void)
 	_putchar('\n');
 	return (0);
 }
+
