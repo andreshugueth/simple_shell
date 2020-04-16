@@ -1,11 +1,11 @@
 # simple_shell Project
 
 ## Summary
-- [Description](https://github.com/JParrales/Readme_Styles#description)
-- [Installing](https://github.com/JParrales/Readme_Styles#installing)
-- [Files](https://github.com/JParrales/Readme_Styles#files)
-- [Examples](https://github.com/JParrales/Readme_Styles#examples)
-- [Authors](https://github.com/authors/Readme_Styles#examples)
+- [Description](https://github.com/andreshugueth/simple_shell#description)
+- [Installing](https://github.com/andreshugueth/simple_shell#installing)
+- [Files](https://github.com/andreshugueth/simple_shell#files)
+- [Examples](https://github.com/andreshugueth/simple_shell#examples)
+- [Authors](https://github.com/andreshugueth/simple_shell#authors)
 
 ## Description
  This is a **Simple Shell** Repository
