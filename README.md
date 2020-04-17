@@ -8,7 +8,7 @@
 - [Authors](https://github.com/andreshugueth/simple_shell#authors)
 
 ## Description
- This is a **Simple Shell** Repository
+This is a simple shell that can be compiled and executed from the command line of Linux. It contains some of commands of the Linux's Shell.
 
 ## Installing
 
@@ -51,21 +51,42 @@ cd simple_shell
 
 ## Examples:
 
-- **Interactive mode** 
+### Interactive mode
 
-`./hsh ` *-execution-*
+**Prototipe**
 
-`$:` *-program started-*
+![enter image description here](https://i.ibb.co/7WCRrLR/No-Interactive-Mode.png)
 
-`$:  /bin/ls`  *-comand-*
+*-execution-*
 
-Result:
+`./hsh `
+
+*-program started-*
+
+`$:`
+
+*-comand-*
+
+`$:  /bin/ls`
+
+*-Result-*
+
 ```
-AUTHORS    _putchar.c  _strcpy.c    checkline.c    holberton.h  parse_line.c  readline.c
-README.md  _strcat.c   _strlen.c    errors.c       hsh          path.c
-_getenv.c  _strcmp.c   built_ins.c  forkprocess.c  main.c       prompt.c
+AUTHORS    _getenv.c   _strcat.c  _strcpy.c  checkline.c  forkprocess.c  hsh     parse_line.c  prompt.c
+README.md  _putchar.c  _strcmp.c  _strlen.c  errors.c     holberton.h    main.c  path.c        readline.c
 ```
 
+### Non-interactive mode
+
+**Prototipe**
+
+![enter image description here](https://i.ibb.co/ZLQM5mW/Interative-Mode.png) 
+
+*-comand | execution-*
+
+`echo "/bin/ls" | ./hsh`
 
 ## Authors  
 [@Andres Hugueth - Github :octocat:](https://github.com/andreshugueth) - [@Jose Parrales - Github :octocat:](https://github.com/JParrales)
+
+<p>For more information about <a href="https://medium.com/@andreshugueth/what-happens-when-you-type-ls-l-in-the-shell-67737939d8e" rel="nofollow">shell_proyect</a>.</p>
