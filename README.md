@@ -1,6 +1,6 @@
-# simple_shell Project
+# Simple_Shell Project :shell:
 
-## Summary
+## Summary :page_with_curl:
 - [Description](https://github.com/andreshugueth/simple_shell#description)
 - [Installing](https://github.com/andreshugueth/simple_shell#installing)
 - [Files](https://github.com/andreshugueth/simple_shell#files)
@@ -86,7 +86,7 @@ README.md  _putchar.c  _strcmp.c  _strlen.c  errors.c     holberton.h    main.c 
 
 `echo "/bin/ls" | ./hsh`
 
-## Authors  
+## Authors  :octocat:
 [@Andres Hugueth - Github :octocat:](https://github.com/andreshugueth) - [@Jose Parrales - Github :octocat:](https://github.com/JParrales)
 
 <p>For more information about <a href="https://medium.com/@andreshugueth/what-happens-when-you-type-ls-l-in-the-shell-67737939d8e" rel="nofollow">shell_proyect</a>.</p>
