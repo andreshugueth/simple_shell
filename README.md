@@ -7,16 +7,16 @@
 - [Examples](https://github.com/andreshugueth/simple_shell#examples)
 - [Authors](https://github.com/andreshugueth/simple_shell#authors)
 
-## Description
+## Description :clipboard:
 This is a simple shell that can be compiled and executed from the command line of Linux. It contains some of commands of the Linux's Shell.
 
-## Installing
+## Installing :minidisc:
 
-### Requirements
+### Requirements :straight_ruler:
 - All the files are to be compiled on an Ubuntu 14.04 LTS
 - gcc 4.8.4
 
-### Clone repository:
+### Clone repository :page_facing_up:
 
 ``
 git clone https://github.com/andreshugueth/simple_shell.git
@@ -25,11 +25,11 @@ git clone https://github.com/andreshugueth/simple_shell.git
 ``
 cd simple_shell
 ``
-### Compiling program:
+### Compiling program :floppy_disk:
 
 `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
 
-## Files:
+## Files :open_file_folder:
 
 | File | Description |
 | ------ | ------ |
