@@ -15,6 +15,7 @@ void prompt(int c)
 	char **separate;
 
 	do {
+		signal(SIGINT, _handler);
 		if (c == 1)
 			write(1, "$: ", 4);
 		status = 1;
@@ -42,9 +43,7 @@ void prompt(int c)
 				free(command);
 			}
 			else if (status == 0)
-			{
 				forkprocess(separate[0], separate);
-			}
 			free(separate);
 		}
 		free(line);

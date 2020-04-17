@@ -8,6 +8,7 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <signal.h>
 
 #define STDIN 0
 #define DELIMITERS " \n\t\r\a"
@@ -21,6 +22,7 @@ char *_getenv(char *name);
 char *__findenv(const char *name, int *offset);
 int checkline(char *argument);
 int _error(void);
+void _handler(int num);
 
 /* usables */
 
