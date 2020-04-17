@@ -30,6 +30,7 @@ void prompt(int c)
 			separate = parse_line(line);
 			if (*separate == NULL)
 			{
+				free(separate);
 				free(line);
 				continue;
 			}
@@ -38,14 +39,13 @@ void prompt(int c)
 			{
 				command = pathcheck(separate[0]);
 				forkprocess(command, separate);
-				free(separate);
 				free(command);
 			}
 			else if (status == 0)
 			{
 				forkprocess(separate[0], separate);
-				free(separate);
 			}
+			free(separate);
 		}
 		free(line);
 	} while (1);
