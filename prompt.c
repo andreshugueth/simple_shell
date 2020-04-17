@@ -17,22 +17,22 @@ void prompt(int c)
 	do {
 		if (c == 1)
 			write(1, "$: ", 4);
-
 		status = 1;
 		line = readline();
 		if (line == NULL)
 		{
 			if (c == 1)
-			{
 				_putchar('\n');
-			}
 			break;
 		}
-
 		if (line[0] != '\n')
 		{
 			separate = parse_line(line);
-
+			if (*separate == NULL)
+			{
+				free(line);
+				continue;
+			}
 			status = checkline(separate[0]);
 			if (status == 1)
 			{
