@@ -1,4 +1,4 @@
-/" This is simple_shell
+./" This is simple_shell
 .TH man 1 "16 Apr 2020" "1.0" "simple_shell man page"
 .SH NAME
 .B simple_shell
@@ -15,10 +15,13 @@ Simple shell that can be compiled and executed.
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 .IP -Interactive mode.
-.br ./hsh
+.PP
+.B ./hsh
+
+.B /bin/ls
 
 .IP -Non-interactive mode.
-echo "/bin/ls" | ./hsh
+B. echo "/bin/ls" | ./hsh
 
 
 .SH BUGS
